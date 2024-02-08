@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 1.5rem;
+  background-color: hsl(233, 47%, 7%);
+  line-height: 1;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: hsl(244, 38%, 16%);
+
+  max-width: 110rem;
+  width: 100%;
+  border-radius: 0.8rem;
+}
+
+.card-text-box {
+  padding: 7rem 9.1rem 7rem 7rem;
+}
+
+.heading {
+  font-size: 3.7rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #fff;
+  margin-bottom: 2.8rem;
+}
+
+.heading span {
+  color: hsl(277, 64%, 61%);
+}
+
+.text-heading {
+  font-family: "Inter";
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7;
+  margin-bottom: 7.8rem;
+}
+
+.stats-container {
+  color: hsla(0, 0%, 100%, 0.6);
+
+  display: flex;
+  gap: 5.8rem;
+}
+
+.stats-container p:first-child {
+  font-weight: bold;
+  font-size: 2.3rem;
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.stats-container p:last-child {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.card-img-box {
+  position: relative;
+}
+
+.card-img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0.8rem 0.8rem 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0.8rem 0.8rem 0;
+  background-color: hsla(276, 96%, 29%, 0.5);
+}
